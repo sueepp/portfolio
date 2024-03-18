@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@font-face {
+  font-family:'font_sw';
+  font-weight:normal;
+	src: url(../font/Subway-SixInch.eot);
+	src: url(/font/Subway-SixInch.eot?#iefix) format('embedded-opentype'),
+	url(../font/Subway-SixInch.woff) format('woff'),
+	url(../font/Subway-SixInch.ttf) format('truetype');
+}
+@font-face {
+  font-family:'font_sw';
+  font-weight:bold;
+	src: url(../font/Subway-Footlong.eot);
+	src: url(../font/Subway-Footlong.eot?#iefix) format('embedded-opentype'),
+	url(../font/Subway-Footlong.woff) format('woff'),
+	url(../font/Subway-Footlong.ttf) format('truetype');
+}

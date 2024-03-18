@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <title>SUBWAY 써브웨이</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="icon" href="./img/subway_og.png">
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <!-- Menu -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- slick 불러오기 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <!-- main JS -->
+  <script src="./js/main.js" defer></script>
+  <!--News Tab-->
+</head>
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="inner">
+        <h1><a href="#"><span class="hide_txt">Subway</span></a></h1>
+        <nav>
+          <ul id="gnb">
+            <li><a href="#">메뉴</a>
+              <ul class="dep2 menu">
+                <div class="sub_menu food">
+                  <li><a href="#">샌드위치</a></li>
+                  <li><a href="#">랩 &middot; 기타</a></li>
+                  <li><a href="#">샐러드</a></li>
+                  <li><a href="#">아침메뉴</a></li>
+                  <li><a href="#">단체메뉴</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">브랜드</a>
+              <ul class="dep2 brand">
+                <div class="sub_menu brand">
+                  <li><a href="#">써브웨이 이용방법</a></li>
+                  <li><a href="#">단체메뉴 이용방법</a></li>
+                  <li><a href="#">신선한 재료 소개</a></li>
+                  <li><a href="#">App 이용방법</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">새소식</a>
+              <ul class="dep2 news">
+                <div class="sub_menu news">
+                  <li><a href="#">이벤트 &middot; 프로모션</a></li>
+                  <li><a href="#">뉴스 &middot; 공지사항</a></li>
+                  <li><a href="#">광고영상</a></li>
+                </div >
+              </ul>
+            </li>
+            <li><a href="#">써브웨이</a>
+              <ul class="dep2 subway">
+                <div class="sub_menu subway">
+                  <li><a href="#">써브웨이 역사</a></li>
+                  <li><a href="#">써브웨이 약속</a></li>
+                  <li><a href="#">샌드위치 아티스트 지원</a></li>
+                  <li><a href="#">매장찾기</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">가맹점</a>
+              <ul class="dep2 branch">
+                <div class="sub_menu branch">
+                  <li><a href="#">써브웨이 프랜차이즈</a></li>
+                  <li><a href="#">가맹관련 FAQ</a></li>
+                  <li><a href="#">가맹신청 문의</a></li>
+                  <li><a href="#">지사 안내</a></li>
+                  <li><a href="#">사업 설명회</a></li>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="util">
+          <div class="lan">
+            <a href="#" class="kor">KOR </a>
+            <a href="#">ENG</a>
+          </div>
+        </div>
+        <div class="allmenu_wrap">
+          <ul class="allmenu_gnb">
+            <button class="menu_btn"><span class="material-symbols-outlined">menu</span>
+            </button>
+            <li><a href="#">메뉴</a>
+              <ul class="allmenu_list">
+                <div class="dep2">
+                  <li><a href="#">샌드위치</a></li>
+                  <li><a href="#">랩 &middot; 기타</a></li>
+                  <li><a href="#">샐러드</a></li>
+                  <li><a href="#">아침메뉴</a></li>
+                  <li><a href="#">단체메뉴</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">브랜드</a>
+              <ul class="allmenu_list">
+                <div class="dep2">
+                  <li><a href="#">써브웨이 이용방법</a></li>
+                  <li><a href="#">단체메뉴 이용방법</a></li>
+                  <li><a href="#">신선한 재료 소개</a></li>
+                  <li><a href="#">App 이용방법</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">새소식</a>
+              <ul class="allmenu_list">
+                <div class="dep2">
+                  <li><a href="#">이벤트 &middot; 프로모션</a></li>
+                  <li><a href="#">뉴스 &middot; 공지사항</a></li>
+                  <li><a href="#">광고영상</a></li>
+                </div >
+              </ul>
+            </li>
+            <li><a href="#">써브웨이</a>
+              <ul class="allmenu_list">
+                <div class="dep2">
+                  <li><a href="#">써브웨이 역사</a></li>
+                  <li><a href="#">써브웨이 약속</a></li>
+                  <li><a href="#">샌드위치 아티스트 지원</a></li>
+                  <li><a href="#">매장찾기</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">가맹점</a>
+              <ul class="allmenu_list">
+                <div class="dep2">
+                  <li><a href="#">써브웨이 프랜차이즈</a></li>
+                  <li><a href="#">가맹관련 FAQ</a></li>
+                  <li><a href="#">가맹신청 문의</a></li>
+                  <li><a href="#">지사 안내</a></li>
+                  <li><a href="#">사업 설명회</a></li>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="bg_gnb"></div>
+    <main id="main">
+      <!-- Swiper -->
+      <section class="main_visual">
+        <div class="swiper mySwiper main">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/main_visual1.svg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/main_visual2.svg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/main_visual3.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    
+      <!-- Menu Tab -->
+    <div id="menu" class="tab_section">
+      <div class="inner menu">
+        <h2>Subway's menu</h2>
+        <div class="buttons">
+          <button class="active">샌드위치</button>
+          <button>랩 &middot; 기타</button>
+          <button>샐러드</button>
+          <button>아침메뉴</button>
+          <button>단체메뉴</button>
+        </div>
+        <div class="tabs">
+          <div class="tab active sandwich">
+            <div class="slider menu_slider">
+                <div class="item">
+                  <a href="">
+                    <img src="./img/ItalianBMT_SubPick.png" alt="이탈리안비엠티섭픽">
+                    <div class="text">
+                      <strong>이탈리안 비엠티 썹픽</strong>
+                      <p>Italian B.M.T. SUBPICK</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/Steak_Cheese_SubPick.png" alt="스테이크and치즈섭픽">
+                    <div class="text">
+                      <strong>스테이크 & 치즈 썹픽</strong>
+                      <p>Steak & Cheese SUBPICK</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/Rotisserie_Barbecue_Chicken_SubPick.png" alt="로티세리바비큐치킨썹픽">
+                    <div class="text">
+                      <strong>로티세리 바비큐 치킨 썹픽</strong>
+                      <p>Rotisserie Barbecue Chicken SUBPICK</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/steackncheese.png" alt="스테이크 치즈">
+                    <div class="text">
+                      <strong>스테이크 & 치즈</strong>
+                      <p>steak & cheese</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/chicken bacon avocado.png" alt="치킨 베이컨 아보카도">
+                    <div class="text">
+                      <strong>치킨 베이컨 아보카도</strong>
+                      <p>chicken Bacon Avocado</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/Spicy_Shrimp_front_20230703125534663.png" alt="스파이시 쉬림프">
+                    <div class="text">
+                      <strong>스파이시 쉬림프</strong>
+                      <p>Spicy Shrimp</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/Shrimp_front_20230703123439107.png" alt="쉬림프">
+                    <div class="text">
+                      <strong>쉬림프</strong>
+                      <p>Shrimp</p>
+                    </div>
+                  </a>
+                </div>
+            </div>
+          </div>
+          <div class="tab wrap">
+            <div class="slider">
+              <div class="item">
+                <a href="">
+                  <img src="./img/steak_n_cheese_avocado_wrap_20210315105638140.jpg" alt="스테이크&치즈아보카도랩">
+                  <div class="text">
+                    <strong>스테이크 & 치즈 아보카도 랩</strong>
+                    <p>Steak & Cheese Avocado Wrap</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/shrimp_egg_mayo_wrap_20210315105650669.jpg" alt="쉬림프에그마요랩">
+                  <div class="text">
+                    <strong>쉬림프 에그마요 랩</strong>
+                    <p>Shrimp Egg Mayo Wrap</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/chicken_bacon_mini_wrap_20210315105919945.jpg" alt="치킨베이컨미니랩">
+                  <div class="text">
+                    <strong>치킨 베이컨 미니 랩</strong>
+                    <p>Chicken Bacon Mini Wrap</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/ham_egg_cheese_wrap.png" alt="햄에그치즈랩">
+                  <div class="text">
+                    <strong>햄 에그 & 치즈 랩</strong>
+                    <p>Ham egg & Cheese Wrap</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/western_egg_n_cheese_wrap.png" alt="웨스턴에그치즈랩">
+                  <div class="text">
+                    <strong>웨스턴 에그 & 치즈 랩</strong>
+                    <p>Western Egg & Cheese Wrap</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="tab salad">
+            <div class="slider">
+              <div class="item">
+                <a href="">
+                  <img src="./img/spicy_shrimp_salad.png" alt="스파이시쉬림프샐러드">
+                  <div class="text">
+                    <strong>스파이시 쉬림프</strong>
+                    <p>Spicy Shrimp</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/spicy_italian_salad.png" alt="스파이시이탈리안샐러드">
+                  <div class=text>
+                    <strong>스파이시 이탈리안</strong>
+                    <p>Spicy Italian</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/steak_cheese_salad.png" alt="스테이크앤치즈샐러드">
+                  <div class="text">
+                    <strong>스테이크 & 치즈</strong>
+                    <p>Steak & Cheese</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/chicken_bacon_avocado_salad.png" alt="치킨베이컨아보카도샐러드">
+                  <div class="text">
+                    <strong>치킨 베이컨 아보카도</strong>
+                    <p>Chicken Bacon Avocado</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/roasted_chicken_salad.png" alt="로스트치킨 샐러드">
+                  <div class="text">
+                    <strong>로스트 치킨</strong>
+                    <p>Roasted Chicken</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/pulled_pork_salad.png" alt="풀드 포크 비비큐 샐러드">
+                  <div class="text">
+                    <strong>풀드 포크 바비큐</strong>
+                    <p>Pulled Pork Barbecue</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/subway_club_salad.png" alt="서브웨이클럽샐러드">
+                  <div class="text">
+                    <strong>써브웨이 클럽</strong>
+                    <p>Subway Club</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/chicken_teriyaki_salad.png" alt="치킨데리야끼샐러드">
+                  <div class="text">
+                    <strong>치킨 데리야끼</strong>
+                    <p>Chicken Teriyaki</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/italian_BMT_salad.png" alt="이탈리안BMT샐러드">
+                  <div class="text">
+                    <strong>이탈리안 비엠티</strong>
+                    <P>Italian B.M.T</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/BLT_salad.png" alt="BLT샐러드">
+                  <div class="text">
+                    <strong>비엘티</strong>
+                    <p>B.L.T</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/chicken_slice_salad.png" alt="치킨슬라이스샐러드">
+                  <div class="text">
+                    <strong>치킨 슬라이스</strong>
+                    <p>Chicken Slice</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/tuna_salad.png" alt="참치샐러드">
+                  <div class="text">
+                    <strong>참치</strong>
+                    <p>Tuna</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/ham_salad.png" alt="햄샐러드">
+                  <div class="text">
+                    <strong>햄</strong>
+                    <p>Ham</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/eggmayo_salad.png" alt="에그마요샐러드">
+                  <div class="text">
+                    <strong>에그마요</strong>
+                    <p>Egg Mayo</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/veggie_salad.png" alt="베지샐러드">
+                  <div class="text">
+                    <strong>베지</strong>
+                    <p>Veggie</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="tab morning">
+            <div class="slider">
+              <div class="item">
+                <a href="">
+                  <img src="./img/ham_egg_cheese_morning.png" alt="햄에그치즈모닝">
+                  <div class="text">
+                    <strong>햄, 에그 & 치즈</strong>
+                    <p>Ham, Egg & Cheese</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/western_egg_cheese_morning.png" alt="웨스턴에그치즈모닝">
+                  <div class="text">
+                    <strong>웨스턴, 에그 & 치즈</strong>
+                    <p>Western, Egg & Cheese</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/ham_egg_cheese_wrap.png" alt="햄에그치즈랩">
+                  <div class="text">
+                    <strong>햄, 에그 & 치즈 랩</strong>
+                    <p>Ham, Egg & Cheese Wrap</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/western_egg_n_cheese_wrap.png" alt="웨스턴, 에그 & 치즈 랩">
+                  <div class="text">
+                    <strong>웨스턴에그치즈랩</strong>
+                    <p>Western, Egg & Cheese Wrap</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="tab platter">
+            <div class="slider">
+              <div class="item">
+                <a href="">
+                  <img src="./img/fresh_party_platter.jpg" alt="프레쉬파티플래터">
+                  <div class="text">
+                    <strong>프레쉬 파티플래터</strong>
+                    <p>Fresh Party Platter</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/best_party_platter.jpg" alt="베스트파티플래터">
+                  <div class="text">
+                    <strong>베스트 파티 플래터</strong>
+                    <p>Best Party Platter</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/gient_sub_3feet.jpg" alt="자이언트써브90cm">
+                  <div class="text">
+                    <strong>자이언트 써브 90cm</strong>
+                    <p>Giant Sub 3feet</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/gient_sub_6feet.jpg" alt="자이언트써브180cm">
+                  <div class="text">
+                    <strong>자이언트 써브 180cm</strong>
+                    <p>Giant Sub 6feet</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/cookie_box.jpg" alt="쿠키박스">
+                  <div class="text">
+                    <strong>쿠키박스</strong>
+                    <p>Cookie Box</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/cookie_platter.jpg" alt="쿠키플래터">
+                  <div class="text">
+                    <strong>쿠키플래터</strong>
+                    <p>Cookie Platter</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div id="info">
+      <section class="section">
+        <div class="subway_info">
+          <div class="subway_history">
+            <div class="info_cont">
+              <img src="./img/subway_history.svg" alt="">
+                <div class="info_text">
+                  <h2>서브웨이 역사<br> <span>SUBWAY HISTORY</span></h2>
+                  <p>50년 역사를 가진 No.1 프렌차이즈의 성장기</p>
+                  <button class="more1">자세히 보기</button>
+                </div>
+            </div>
+          </div>
+          <div class="subway_promise">
+            <div class="info_cont">
+              <img src="./img/subway_promise.svg" alt="">
+              <div class="info_text">
+                <h2>서브웨이 약속<br> <span>SEARCH FOR BETTER</span></h2>
+                <p>우리는 더 좋은 써브웨이를 위해 매일 노력합니다.</p>
+                <button class="more2">자세히 보기</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="app"><!--다시 디자인-->
+      <div class="inner">
+        <h2>Subway's App</h2>
+        <div class="app_txt">
+          <span>내 손 안의 작은 서브웨이!</span>
+          <h2><span>말이 안나올땐 손으로 주문하자 !</span></h2>
+          <p>ORDER APP STORE</p>
+          <i>Home Sub. Fast Sub. Point</i>
+          <button class="googleplay">구글플레이</button>
+          <button class="appstore">앱스토어</button>
+        </div>
+        <div class="fast_sub">
+          <img src="./img/iphone_appstore.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div id="news" class="tab_section">
+      <div class="inner news">
+        <h2>What's New</h2>
+        <div class="buttons">
+          <button class="active">이벤트 &middot; 프로모션</button>
+          <button>뉴스 &middot; 공지사항</button>
+        </div>
+        <div class="tabs">
+          <div class="tab active promo">
+            <div class="slider">
+                <div class="item">
+                  <a href="">
+                    <img src="./img/content1.jpg" alt="">
+                    <div class=text>
+                      <strong>서브웨이와 함께하는 JTBC 수목드라마 '이 연애는 불가항력'</strong>
+                      <p>2023.12.15</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/content2.jpg" alt="">
+                    <div class="text">
+                      <strong>써브웨이와 함께하는 채널A '하트시그널4'</strong>
+                      <p>2023.11.13</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/content3.jpg" alt="">
+                    <div class="text">
+                      <strong>써브웨이와 함께하는 tvN '이번 생도 잘 부탁해'</strong>
+                      <p>2023.11.01</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="">
+                    <img src="./img/content4.jpg" alt="">
+                    <div class="text">
+                      <strong>써브웨이와 함께하는 tvN '뿅뿅 지구 오락실'</strong>
+                      <p>2023.10.25</p>
+                    </div>
+                  </a>
+                </div>
+            </div>
+          </div>
+          <div class="tab wrap">
+            <div class="slider">
+              <div class="item">
+                <a href="">
+                  <img src="./img/event1.svg" alt="">
+                  <div class="text">
+                    <strong>써브웨이 추천 조합을 ‘썹픽’ 한마디로 쉽고 빠르게 주문 끝!</strong>
+                    <p>2023.09.30</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/event2.svg" alt="">
+                  <div class="text">
+                    <strong>차은우와 함께하는 Eat Fresh Feel Good 만나러 가기</strong>
+                    <p>2023.08.31</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/event3.svg" alt="">
+                  <div class="text">
+                    <strong>써브웨이 앱에서 신선함과 즐거움을 두 배로</strong>
+                    <p>2023.08.01</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="./img/event4.svg" alt="">
+                  <div class="text">
+                    <strong>샌드위치와 함께 세트로 즐겨보세요!</strong>
+                    <p>2023.07.28</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="promo">
+      <section class="section">
+        <div class="promo_info">
+          <div class="subway_world">
+            <div class="promo_cont">
+              <img src="./img/promo_world.svg" alt="">
+              <div class="promo_text">
+                <strong>전세계</strong>
+                <p>104 <span>개국</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="subway_store">
+            <div class="promo_cont">
+              <img src="./img/promo_store.svg" alt="">
+              <div class="promo_text">
+                <strong>매장수</strong>
+                <p>37,525 <span>개</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer_top">
+          <ul>
+            <li class="focus">개인정보처리방침</li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">이메일무단수신거부</a></li>
+          </ul>
+        </div>
+        <div class="footer_bottom">
+          <img src="./img/subway footer h1.svg" alt="subway">
+          <div class="bottom_txt">
+            <ul>
+              <li><span>사업자등록번호</span>101-84-04143
+              <span class="name">대표</span>INSOO CHO(인수조)</li>
+              <li><span>대표번호</span>02-797-5036</li>
+              <li><span>서울강북지사</span>서울특별시 서초구 강남대로 535 13층 <i>010-4920-1965</i></li>
+              <li><span>서울강남지사</span>서울시 서초구 사평대로 55길 112-7 2층 <i>02-6356-7907</i></li>
+            </ul>
+            <div class="copyright">
+              <p>SUBWAY® is a Registered Trademark of Subway IP LLC. © 2021 Subway IP LLC. All Rights Reserved.</p>
+            </div>
+          </div>
+            <div class="footer_sns">
+              <ul class="sns_btns">
+                <li><a href="#">
+                  <img src="./img/btn_blog.svg" alt="">
+                </a></li>
+                <li><a href="#">
+                  <img src="./img/btn_youtube.svg" alt="">
+                </a></li>
+                <li><a href="#">
+                  <img src="./img/btn_instagram.svg" alt="">
+                </a></li>
+                <li><a href="#">
+                  <img src="./img/btn_facebook.svg" alt="">
+                </a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
